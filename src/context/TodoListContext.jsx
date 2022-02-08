@@ -4,10 +4,9 @@ import { createContext,useContext,useState } from "react";
 const TodoListContext=createContext();
 
 const initialTodoList=[
-    {id:1,text:"todo1",completed:false},
-    {id:2,text:"todo2",completed:false},
-    {id:3,text:"todo3",completed:false},
-    {id:4,text:"todo4",completed:false},
+    {id:1,text:"studying examination",completed:false},
+    {id:2,text:"meetin friends",completed:false},
+   
 ];
 export const TodoListProvider=({children})=>{
     const [todoList,setTodoList]=useState(initialTodoList);
