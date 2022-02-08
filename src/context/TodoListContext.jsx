@@ -5,7 +5,7 @@ const TodoListContext=createContext();
 
 const initialTodoList=[
     {id:1,text:"studying examination",completed:false},
-    {id:2,text:"meetin friends",completed:false},
+    {id:2,text:"meeting friends",completed:false},
    
 ];
 export const TodoListProvider=({children})=>{
